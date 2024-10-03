@@ -1,0 +1,47 @@
+.mainInfo {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+}
+
+.mainInfo img {
+  width: 300px;
+  height: auto;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.link:hover {
+  scale: 1.1;
+  color: rgb(255, 101, 101);
+}
+
+.active {
+  color: rgb(255, 0, 0);
+}
+
+.span {
+  display: flex;
+  gap: 20px;
+  margin: 0px;
+  padding: 10px;
+}
